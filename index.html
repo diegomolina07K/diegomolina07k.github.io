@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - are.na Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to my EXPLORATIONS!</h1>
-    <p>This is my first coded website ever.</p>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link" data-channel="all">All</a></li>
+                <li><a href="#" class="nav-link" data-channel="photography">Photography</a></li>
+                <li><a href="#" class="nav-link" data-channel="design">Design</a></li>
+                <li><a href="#" class="nav-link" data-channel="inspiration">Inspiration</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="gallery">
+            <div id="loading" class="loading">Loading images...</div>
+            <div id="photos" class="photos-grid"></div>
+            <div id="error" class="error" style="display:none;"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
