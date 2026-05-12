@@ -2,9 +2,9 @@
 // UPDATE THESE WITH YOUR are.na CHANNEL NAMES
 const ARENA_CHANNELS = {
     all: ['photography', 'design', 'inspiration'], // Multiple channels for "All"
-    photography: 'photography',
-    design: 'design',
-    inspiration: 'inspiration'
+    photography: 'website-sdvubrjweva',
+    design: 'website-sdvubrjweva',
+    inspiration: 'website-sdvubrjweva'
 };
 
 const ARENA_API = 'https://api.are.na/v2/channels';
