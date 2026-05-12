@@ -1,7 +1,7 @@
 // ===== CONFIGURATION =====
 // UPDATE THESE WITH YOUR are.na CHANNEL NAMES
 const ARENA_CHANNELS = {
-    all: ['photography', 'design', 'inspiration'], // Multiple channels for "All"
+    all: ['website-sdvubrjweva', 'website-sdvubrjweva', 'website-sdvubrjweva'], // Multiple channels for "All"
     photography: 'website-sdvubrjweva',
     design: 'website-sdvubrjweva',
     inspiration: 'website-sdvubrjweva'
