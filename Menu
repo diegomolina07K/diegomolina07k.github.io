@@ -1,0 +1,6 @@
+const ARENA_CHANNELS = {
+    all: ['photography', 'design', 'inspiration'], // Multiple channels for "All"
+    photography: 'https://www.are.na/diego-molina/website-sdvubrjweva',
+    design: 'https://www.are.na/diego-molina/website-sdvubrjweva',
+    inspiration: 'https://www.are.na/diego-molina/website-sdvubrjweva'
+};
